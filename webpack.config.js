@@ -37,7 +37,7 @@ module.exports = {
 			BASE_URL: 'http://localhost:8081'
 		}),
 		new CompressionPlugin(),
-		new BundleAnalyzerPlugin()
+		// new BundleAnalyzerPlugin()
 	],
 	optimization:{
 		minimizer: [
