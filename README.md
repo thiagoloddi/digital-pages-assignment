@@ -4,13 +4,12 @@ In this application you can search information about marvel characters.
 
 - [Run with docker-compose](#run-with-docker-compose)
 - [Run mannually](#run-manually-(development))
-- [Caveats](#caveats)
 
 # Run with docker-compose
 ```bash
 git clone git@github.com:thiagoloddi/digital-pages-assignment.git
 cd digital-pages-assignment
-docker-compose up --build
+docker-compose up
 ```
 
 Access `localhost:8080` in your browser to start using the application.
