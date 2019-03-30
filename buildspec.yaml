@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - $(aws ecr get-login --region $ECR_REGION --no-include-email)
+
+  build:
+    commands:
+      - docker build --build-arg NODE_ENV=$NODE_ENV . -t digital-pass-api:$NODE_ENV
+
+  post_build:
+    commands:
+      - docker tag digital-pass-api:$NODE_ENV $REPOSITORY_URI:$NODE_ENV
+      - docker push $REPOSITORY_URI:$NODE_ENV
+      - sed -i 's/DUMMY_ENV/'$NODE_ENV'/g' Dockerrun.aws.json
+
+artifacts:
+  files:
+    - Dockerrun.aws.json
