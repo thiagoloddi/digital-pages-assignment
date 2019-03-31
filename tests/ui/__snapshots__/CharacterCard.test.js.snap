@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 CharacterCard-paper-0-2-1"
+>
+  <div
+    className="Image-container-0-2-5 CharacterCard-image-0-2-2"
+  >
+    <img
+      className="Image-img-0-2-6"
+      src="path.undefined"
+      style={
+        Object {
+          "visibility": "hidden ",
+        }
+      }
+    />
+    <img
+      className="Image-loading-0-2-7"
+      src="/assets/progress.gif"
+      style={null}
+    />
+  </div>
+  <div
+    className="CharacterCard-info-0-2-4"
+  >
+    <h1
+      className="CharacterCard-heading-0-2-3"
+    >
+      Char name
+    </h1>
+    <p>
+      A description
+    </p>
+  </div>
+</div>
+`;

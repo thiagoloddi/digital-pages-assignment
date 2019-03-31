@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="CharacterThumb-container-0-1-1"
+>
+  <div
+    className="Image-container-0-1-3 "
+  >
+    <img
+      className="Image-img-0-1-4"
+      src="path.jpg"
+      style={
+        Object {
+          "visibility": "hidden ",
+        }
+      }
+    />
+    <img
+      className="Image-loading-0-1-5"
+      src="/assets/progress.gif"
+      style={null}
+    />
+  </div>
+  <div
+    className="CharacterThumb-name-0-1-2"
+  >
+    Char
+  </div>
+</div>
+`;

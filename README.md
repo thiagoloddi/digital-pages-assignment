@@ -41,6 +41,12 @@ npm run dev
 Access `localhost:8080` in your browser to start using the application.
 
 # Tests
+Run tests:
 ```bash
-npm test
+npm run test
+```
+
+Update snapshots:
+```bash
+npm run test:update
 ```

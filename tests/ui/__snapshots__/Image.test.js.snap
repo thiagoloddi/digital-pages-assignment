@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly loading 1`] = `
+<div
+  className="Image-container-0-1-1 "
+>
+  <img
+    className="Image-img-0-1-2"
+    src="http://lorempixel.com/400/200/"
+    style={
+      Object {
+        "visibility": "hidden ",
+      }
+    }
+  />
+  <img
+    className="Image-loading-0-1-3"
+    src="/assets/progress.gif"
+    style={null}
+  />
+</div>
+`;

@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2"
+  >
+    <table
+      className="MuiTable-root-28 CharactersList-table-0-1-1"
+    >
+      <thead
+        className="MuiTableHead-root-29"
+      >
+        <tr
+          className="MuiTableRow-root-30 MuiTableRow-head-33"
+        >
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-head-36"
+            scope="col"
+          >
+            Nome
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-head-36"
+            scope="col"
+          >
+            Descrição
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-head-36 MuiTableCell-alignCenter-44 CharactersList-modified-0-1-3"
+            scope="col"
+          >
+            Última Atualização
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="MuiTableBody-root-47"
+      >
+        <tr
+          className="MuiTableRow-root-30 CharactersList-row-0-1-4"
+          id="1"
+          onClick={[Function]}
+        >
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-body-37 CharactersList-name-0-1-2"
+          >
+            <div
+              className="CharacterThumb-container-0-1-5"
+            >
+              <div
+                className="Image-container-0-1-7 "
+              >
+                <img
+                  className="Image-img-0-1-8"
+                  src="path..jpg"
+                  style={
+                    Object {
+                      "visibility": "hidden ",
+                    }
+                  }
+                />
+                <img
+                  className="Image-loading-0-1-9"
+                  src="/assets/progress.gif"
+                  style={null}
+                />
+              </div>
+              <div
+                className="CharacterThumb-name-0-1-6"
+              >
+                Char1
+              </div>
+            </div>
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-body-37"
+          >
+            Description 1
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-body-37 MuiTableCell-alignCenter-44"
+          >
+            31/12/69 - 21:00
+          </td>
+        </tr>
+        <tr
+          className="MuiTableRow-root-30 CharactersList-row-0-1-4"
+          id="2"
+          onClick={[Function]}
+        >
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-body-37 CharactersList-name-0-1-2"
+          >
+            <div
+              className="CharacterThumb-container-0-1-5"
+            >
+              <div
+                className="Image-container-0-1-7 "
+              >
+                <img
+                  className="Image-img-0-1-8"
+                  src="path..jpg"
+                  style={
+                    Object {
+                      "visibility": "hidden ",
+                    }
+                  }
+                />
+                <img
+                  className="Image-loading-0-1-9"
+                  src="/assets/progress.gif"
+                  style={null}
+                />
+              </div>
+              <div
+                className="CharacterThumb-name-0-1-6"
+              >
+                Char1
+              </div>
+            </div>
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-body-37"
+          >
+            Description 2
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-body-37 MuiTableCell-alignCenter-44"
+          >
+            31/12/69 - 21:00
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

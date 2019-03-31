@@ -1,5 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
+import propTypes from 'prop-types';
 
 const style = {
   container: {

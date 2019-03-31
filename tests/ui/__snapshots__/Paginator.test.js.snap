@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly first third 1`] = `
+<div
+  className="Paginator-container-0-1-1"
+>
+  <div>
+    &lt;&lt;
+  </div>
+  <div>
+    &lt;
+  </div>
+  <div
+    className="-selected"
+  >
+    1
+  </div>
+  <div
+    className=""
+  >
+    2
+  </div>
+  <div
+    className=""
+  >
+    3
+  </div>
+  <div
+    className=""
+  >
+    4
+  </div>
+  <div
+    className=""
+  >
+    5
+  </div>
+  <div
+    className=""
+  >
+    6
+  </div>
+  <div
+    className=""
+  >
+    ...
+  </div>
+  <div
+    className=""
+  >
+    49
+  </div>
+  <div
+    className=""
+  >
+    50
+  </div>
+  <div>
+    &gt;
+  </div>
+  <div>
+    &gt;&gt;
+  </div>
+</div>
+`;
+
+exports[`renders correctly last third 1`] = `
+<div
+  className="Paginator-container-0-1-1"
+>
+  <div>
+    &lt;&lt;
+  </div>
+  <div>
+    &lt;
+  </div>
+  <div
+    className=""
+  >
+    1
+  </div>
+  <div
+    className=""
+  >
+    2
+  </div>
+  <div
+    className=""
+  >
+    ...
+  </div>
+  <div
+    className=""
+  >
+    45
+  </div>
+  <div
+    className=""
+  >
+    46
+  </div>
+  <div
+    className=""
+  >
+    47
+  </div>
+  <div
+    className=""
+  >
+    48
+  </div>
+  <div
+    className=""
+  >
+    49
+  </div>
+  <div
+    className="-selected"
+  >
+    50
+  </div>
+  <div>
+    &gt;
+  </div>
+  <div>
+    &gt;&gt;
+  </div>
+</div>
+`;
+
+exports[`renders correctly second third 1`] = `
+<div
+  className="Paginator-container-0-1-1"
+>
+  <div>
+    &lt;&lt;
+  </div>
+  <div>
+    &lt;
+  </div>
+  <div
+    className=""
+  >
+    1
+  </div>
+  <div
+    className=""
+  >
+    2
+  </div>
+  <div
+    className=""
+  >
+    ...
+  </div>
+  <div
+    className=""
+  >
+    24
+  </div>
+  <div
+    className="-selected"
+  >
+    25
+  </div>
+  <div
+    className=""
+  >
+    26
+  </div>
+  <div
+    className=""
+  >
+    ...
+  </div>
+  <div
+    className=""
+  >
+    49
+  </div>
+  <div
+    className=""
+  >
+    50
+  </div>
+  <div>
+    &gt;
+  </div>
+  <div>
+    &gt;&gt;
+  </div>
+</div>
+`;

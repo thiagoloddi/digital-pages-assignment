@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2 ComicCard-paper-0-1-1"
+>
+  <div
+    className="Image-container-0-1-5 ComicCard-image-0-1-2"
+  >
+    <img
+      className="Image-img-0-1-6"
+      src="path.undefined"
+      style={
+        Object {
+          "visibility": "hidden ",
+        }
+      }
+    />
+    <img
+      className="Image-loading-0-1-7"
+      src="/assets/progress.gif"
+      style={null}
+    />
+  </div>
+  <div
+    className="ComicCard-info-0-1-3"
+  >
+    <span>
+      <strong>
+        TÍTULO: 
+      </strong>
+      A Title
+    </span>
+    <span
+      className="ComicCard-right-0-1-4"
+    >
+      <strong>
+        NÚMERO DE CAPA: 
+      </strong>
+      1
+    </span>
+    <p>
+      A description
+    </p>
+  </div>
+</div>
+`;
