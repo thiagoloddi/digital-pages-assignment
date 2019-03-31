@@ -2,6 +2,8 @@
 
 In this application you can search information about marvel characters.
 
+Demo: http://digital-pages.us-west-2.elasticbeanstalk.com/
+
 - [Run with docker-compose](#run-with-docker-compose)
 - [Run mannually](#run-manually-(development))
 
